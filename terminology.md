@@ -1,5 +1,3 @@
-
-
 # Terminology
 
 **Aggregate** - The entity, or target of a process. In Bookings, a booking. In Customer Payments, a payment.
@@ -19,4 +17,6 @@
 Projection - The result of iterating through all of the applicators is the projection of the model.
 
 **Saga/Coordinator/Orchestrator** - Is responsible for the flow of the process. Can take wait for multiple events to occur, then continue on with the process. The implementation of what is usually drawn in a sequence diagram. For example, The process will not take charge a customer until all the items in the shopping cart are reserved\(a parallel process\).
+
+**Repository** - Where events for an aggregate are retrieved from.
 
