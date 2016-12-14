@@ -1,3 +1,6 @@
 # Summary
 
-* [First Chapter](chapter1.md)
+* [Introduction](README.md)
+* [Events](events.md)
+* [Sagas\/Process Coordination](chapter1.md)
+
