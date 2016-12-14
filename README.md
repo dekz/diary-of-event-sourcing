@@ -14,7 +14,9 @@ Reservations is the interface to our multiple suppliers. Our inventory is suppli
 
 ## Customer Payments
 
-## 
+Customer payments is the service responsible for performing financial transactions with a customer. There is **high** amounts of Business logic residing in this service. It is concerned with multiple payment types, refunds, partial refunds.
+
+
 
 # Terminology
 
